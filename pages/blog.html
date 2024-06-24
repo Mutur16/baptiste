@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Baptiste Leduc</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
@@ -18,17 +18,17 @@
       <nav class="navbar">
         <ul class="links">
           <li>
-            <a class="active" href="/"
+            <a class="active" href="./../index.html"
               ><i class="icon fa-solid fa-house"></i>Home</a
             >
           </li>
           <li>
-            <a href="./pages/about.html"
+            <a href="about.html"
               ><i class="icon fa-regular fa-address-card"></i>About</a
             >
           </li>
           <li>
-            <a href="./pages/blog.html"><i class="icon fa-regular fa-file"></i>Blog</a>
+            <a href="blog.html"><i class="icon fa-regular fa-file"></i>Blog</a>
           </li>
         </ul>
       </nav>
@@ -36,7 +36,7 @@
         <div class="header-content">
           <img
             class="logo"
-            src="assets/Frieren.png"
+            src="../assets/Frieren.png"
             alt="Picture of Baptiste"
           />
           <h1>Baptiste LEDUC</h1>
@@ -72,7 +72,7 @@
       <aside class="sidebar">
         <div class="sidebar-header">
           <img
-            src="./assets/Frieren.png"
+            src="../assets/Frieren.png"
             class="logo"
             alt="Picture of Baptiste"
           />
@@ -81,13 +81,13 @@
         <!-- links -->
         <ul class="links">
           <li>
-            <a class="active" href="/">Home</a>
+            <a class="active" href="./../index.html">Home</a>
           </li>
           <li>
-            <a href="./pages/about.html">About</a>
+            <a href="about.html">About</a>
           </li>
           <li>
-            <a href="./pages/blog.html">Blog</a>
+            <a href="blog.html">Blog</a>
           </li>
         </ul>
         <!-- social media -->
@@ -110,11 +110,56 @@
         </ul>
       </aside>
     </div>
-    <div class="content">
-      <h2>Baptiste LEDUC</h2>
-      <p>Consultant web</p>
-    </div>
+    <section class="about">
+      <div class="text-items">
+        <h3>Blog</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+          architecto soluta, non consequuntur delectus quidem cumque veritatis
+          quos debitis voluptatem accusamus velit et molestias modi dolor,
+          expedita nemo a explicabo!
+        </p>
+      </div>
+      <div class="history-tl-container">
+        <ul class="tl">
+          <li class="tl-item" ng-repeat="item in retailer_history">
+            <div class="timestamp">
+              <div class="timestamp-year">2018</div>
+            </div>
+            <div class="item-title">JoliCode</div>
+            <div class="item-detail">
+              JoliCode is an expert agency in the realization of quality Web and
+              mobile projects.
+            </div>
+          </li>
+          <li class="tl-item" ng-repeat="item in retailer_history">
+            <div class="item-title">JoliCode</div>
+            <div class="item-detail">
+              JoliCode is an expert agency in the realization of quality Web and
+              mobile projects.
+            </div>
+          </li>
+          <li class="tl-item" ng-repeat="item in retailer_history">
+            <div class="timestamp">
+              <div class="timestamp-year">2018</div>
+            </div>
+            <div class="item-title">JoliCode</div>
+            <div class="item-detail">
+              JoliCode is an expert agency in the realization of quality Web and
+              mobile projects.
+            </div>
+          </li>
+          <li class="tl-item" ng-repeat="item in retailer_history">
+            <div class="item-title">JoliCode</div>
+            <div class="item-detail">
+              JoliCode is an expert agency in the realization of quality Web and
+              mobile projects.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
     <!-- javascript -->
-    <script src="app.js"></script>
+    <script src="../app.js"></script>
   </body>
 </html>
